@@ -1,0 +1,22 @@
+{
+  "name": "sample-async-action-test",
+  "version": "1.0.0",
+  "description": "Sample Jest test of async action creator",
+  "scripts": {
+    "test": "standard && jest"
+  },
+  "main": "index.js",
+  "author": "Robin Pokorny <me@robinpokorny.com> (http://robinpokorny.com)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/robinpokorny/sample-async-action-test"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "babel-jest": "^16.0.0",
+    "babel-preset-latest": "^6.16.0",
+    "flux-standard-action": "^0.6.1",
+    "jest-cli": "^16.0.1",
+    "standard": "^8.4.0"
+  }
+}
