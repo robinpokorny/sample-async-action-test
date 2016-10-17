@@ -1,0 +1,6 @@
+exports[`Todo action loadTodos has correct data 1`] = `
+Object {
+  "payload": Promise {},
+  "type": "FETCH_TODOS",
+}
+`;

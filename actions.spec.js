@@ -26,12 +26,8 @@ describe('Todo action', () => {
       expect(isFSA(action(deps))).toBe(true)
     })
 
-    it('passes on a promise', () => {
-      expect(action(deps).payload.promise).toBeDefined()
-    })
-
-    it('have a type of "FETCH_TODOS"', () => {
-      expect(action(deps).type).toEqual('FETCH_TODOS')
+    it('has correct data', () => {
+      expect(action(deps)).toMatchSnapshot()
     })
 
     it('fetches todos from the server', () => {
