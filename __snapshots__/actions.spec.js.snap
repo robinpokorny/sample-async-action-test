@@ -1,3 +1,5 @@
+exports[`Todo action loadTodos fetches todos from the server 1`] = `"XURL"`;
+
 exports[`Todo action loadTodos has correct data 1`] = `
 Object {
   "payload": Promise {},

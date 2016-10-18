@@ -34,12 +34,7 @@ describe('Todo action', () => {
       action(deps)
 
       expect(deps.fetch).toHaveBeenCalledTimes(1)
-      expect(deps.fetch).toBeCalledWith('XURL', {
-        credentials: 'same-origin',
-        headers: {
-          'Content-Type': 'application/json'
-        }
-      })
+      expect(deps.fetch.mock.calls[0][0]).toMatchSnapshot()
     })
   })
 })
