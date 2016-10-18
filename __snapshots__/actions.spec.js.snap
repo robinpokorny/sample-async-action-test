@@ -1,4 +1,14 @@
-exports[`Todo action loadTodos fetches todos from the server 1`] = `"XURL"`;
+exports[`Todo action loadTodos fetches todos from the server 1`] = `
+Array [
+  "XURL",
+  Object {
+    "credentials": "same-origin",
+    "headers": Object {
+      "Content-Type": "application/json",
+    },
+  },
+]
+`;
 
 exports[`Todo action loadTodos has correct data 1`] = `
 Object {

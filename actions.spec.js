@@ -34,7 +34,7 @@ describe('Todo action', () => {
       action(deps)
 
       expect(deps.fetch).toHaveBeenCalledTimes(1)
-      expect(deps.fetch.mock.calls[0][0]).toMatchSnapshot()
+      expect(deps.fetch.mock.calls[0]).toMatchSnapshot()
     })
   })
 })
